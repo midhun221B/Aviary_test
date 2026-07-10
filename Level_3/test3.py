@@ -95,7 +95,7 @@ phase_info.update(
     }
 )
 
-#Run Aviary example case "Advanced Single Aisle” 
+#Load and run Aviary example case "Advanced Single Aisle" 
 prob = av.run_aviary(
     aircraft_data='models/aircraft/advanced_single_aisle/advanced_single_aisle_FLOPS.csv',
     phase_info=phase_info,

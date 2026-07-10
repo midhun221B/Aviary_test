@@ -1,5 +1,11 @@
+#Example:2
+#Aviary test script for a single-aisle transport aircraft optimization problem using the FwFm benchmark aircraft definition.
+#-- IGNORE ---
+
+# Import Aviary API
 import aviary.api as av # type: ignore
 
+# Phase_info
 #import pre-built phase info dictionary
 from aviary.models.missions.energy_state_default import phase_info # type: ignore
 
