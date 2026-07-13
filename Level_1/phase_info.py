@@ -1,7 +1,8 @@
+# Phase information for the mission profile
+
 from aviary.variable_info.variables import Aircraft, Mission # pyright: ignore[reportMissingImports]
 
 # defaults for energy-state based phases
-
 phase_info = {
     'pre_mission': {'include_takeoff': True, 'optimize_mass': True},
     'climb': {

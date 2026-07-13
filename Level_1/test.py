@@ -1,4 +1,5 @@
 #Example:1
+# Using the Aviary API to run a simulation with specified aircraft data and phase information.
 
 from pathlib import Path
 import aviary.api as av # pyright: ignore[reportMissingImports]
