@@ -1,4 +1,4 @@
-# 
+# Modify the phase_info object from our prior example by increasing num_segments to 3 and setting mach_optimize to True in each of the three phases.
 #-- IGNORE ---
 #Import Aviary API
 import aviary.api as av # type: ignore
@@ -75,6 +75,7 @@ phase_info = {
     },
 }
 
+#-- RUN AVIARY ---
 prob = av.run_aviary(
         aircraft_data='models/aircraft/advanced_single_aisle/advanced_single_aisle_FLOPS.csv',
         phase_info=phase_info,
